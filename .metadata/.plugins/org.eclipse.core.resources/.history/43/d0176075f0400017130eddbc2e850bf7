@@ -1,0 +1,19 @@
+package app;
+
+import adapter.Motor;
+
+public class Automovil {
+	private Motor motor;
+	
+	public Automovil(Motor motor) {
+		this.motor = motor;
+	}
+	
+	public final void recorrido(){
+		System.out.println("RECORRIDO DEL AUTOMOVIL");
+		System.out.println(this.motor.encender());
+		System.out.println(this.motor.acelarar());
+		System.out.println(this.motor.apagar());
+	}
+	
+}

@@ -1,0 +1,11 @@
+package adapter;
+
+public abstract class Motor {
+	public final void recorrido(){
+		
+	}
+	
+	public abstract String encender();
+	public abstract String acelarar();
+	public abstract String apagar();
+}
