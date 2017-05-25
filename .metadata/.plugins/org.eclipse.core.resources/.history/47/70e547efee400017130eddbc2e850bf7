@@ -1,0 +1,13 @@
+package adapter;
+
+public abstract class Motor {
+	public final void recorrido(){
+		System.out.println(encender());
+		System.out.println(acelarar());
+		System.out.println(apagar());
+	}
+	
+	public abstract String encender();
+	public abstract String acelarar();
+	public abstract String apagar();
+}
